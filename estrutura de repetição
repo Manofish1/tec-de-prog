@@ -1,0 +1,55 @@
+// Exemplo While - interrupção automática
+#include <stdio.h>
+int main()
+{
+int num=0, acum=0;
+while (num <= 19){
+ printf ("%i \n" , num);
+ acum=acum+num; // acumulador
+ num = num+1; //contador
+}
+printf ("Soma: %i" , acum);
+return 0;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////
+// Exemplo While - interrupção automática
+#include <stdio.h>
+int main()
+{
+int num=0,
+printf ("Digite -1 para encerrar!\n");
+while (num != -1){
+       printf ("Digite um n°: ");
+
+}
+return 0;
+
+///////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Exemplo While -  automática
+#include <stdio.h>
+int main(){
+  int num=0;
+  int acum=0;
+  do {
+printf ("%i\n", num);
+acum= acum + num;
+num = num + 1; //contador
+}
+while (num <= 10);
+printf ("Soma: %i", acum);
+return 0;
+}
+///////////////////////////////////////////////////
+
+// Exemplo for -  automática
+#include <stdio.h>
+int main()
+{
+int num, acum=0;
+for (num=0; num<=10; num++{
+printf ("%i \n", acum);
+return 0;
+}
+
+
