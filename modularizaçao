@@ -1,0 +1,21 @@
+#include <stdio.h>
+//funçao que verifica se  onumero e par ou impar
+void verificarParImpar(int numero) {
+    if (numero % 2 == 0) {
+        printf("%d e par\n", numero);
+    }else{
+        printf("%d e impar\n", numero);
+    }   
+}
+int main(){
+    int num = 10;
+    //chama a funçao "verificar impar apar"
+    verificarParImpar(num);
+    
+    num = 7;
+    verificarParImpar(num);
+    
+    
+    return 0;
+}
+//////////////////////////////////////////////////////////////////////////
